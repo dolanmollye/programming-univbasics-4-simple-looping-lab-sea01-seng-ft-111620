@@ -29,5 +29,6 @@ def return_string_array(array)
   while count < array.length do
     puts array[count]
     count += 1
+    array
   end
 end
